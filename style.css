@@ -1,0 +1,483 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(36, 100%, 99%);
+  font-family: "Inter", sans-serif;
+  padding: 5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header img {
+  width: 3.5rem;
+  height: 3rem;
+  position: relative;
+  left: 1rem;
+}
+
+#menu {
+  display: none;
+}
+
+.header ul {
+  display: flex;
+}
+.menu-bar {
+  display: none;
+}
+
+.header ul li {
+  text-decoration: none;
+  list-style: none;
+  margin: 1rem;
+  color: hsl(236, 13%, 42%);
+  font-weight: 400;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.header ul li:hover {
+  color: hsl(5, 85%, 63%);
+}
+
+.container {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.container-left {
+  margin-top: 3rem;
+}
+
+.container-left img {
+  width: 45rem;
+  height: 20rem;
+}
+
+.container-bottom {
+  width: 45rem;
+  height: 20rem;
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+
+.container-bottom-left h1 {
+  font-size: 54px;
+  font-weight: 800;
+}
+
+.container-bottom-right {
+  max-width: 50%;
+}
+.container-bottom-right p {
+  color: hsl(236, 13%, 42%);
+  line-height: 1.5rem;
+}
+
+.container-bottom-right button {
+  width: 11rem;
+  height: 3rem;
+  background-color: hsl(5, 85%, 63%);
+  color: hsl(36, 100%, 99%);
+  border: none;
+  font-size: 13px;
+  letter-spacing: 4px;
+  font-weight: 800;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.container-bottom-right button:hover {
+  background-color: hsl(240, 100%, 5%);
+}
+
+.container-right {
+  margin-top: 3rem;
+  margin-left: 2rem;
+  background-color: hsl(240, 100%, 5%);
+  color: #fff;
+  width: 22rem;
+  height: 33.5rem;
+  padding: 2rem;
+}
+
+.container-right h1 {
+  color: hsl(35, 77%, 62%);
+  font-size: 42px;
+}
+
+.container-right h3 {
+  color: hsl(36, 100%, 99%);
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.container-right h3:hover {
+  color: hsl(35, 77%, 62%);
+}
+
+.container-right p {
+  color: hsl(233, 8%, 79%);
+  margin-top: 1rem;
+  opacity: 0.8;
+  line-height: 1.5rem;
+  font-size: 15px;
+}
+
+.container-right hr {
+  margin-top: 1.7rem;
+  color: hsl(233, 8%, 79%);
+  opacity: 0.3;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  width: 65%;
+  position: relative;
+  left: 20rem;
+  bottom: 4rem;
+}
+
+.footer-one {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.footer-one img {
+  width: 6rem;
+  height: 7.5rem;
+}
+
+.footer-one-text {
+  margin-left: 2rem;
+}
+
+.footer-one-text h2 {
+  color: hsl(236, 13%, 42%);
+  opacity: 0.3;
+  font-size: 32px;
+}
+
+.footer-one-text h4 {
+  font-size: 18px;
+  color: hsl(240, 100%, 5%);
+  font-weight: bold;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+.footer-one-text h4:hover {
+  color: hsl(5, 85%, 63%);
+}
+
+.footer-one-text p {
+  color: hsl(236, 13%, 42%);
+  font-size: 15px;
+  line-height: 1.6rem;
+  margin-top: 0.5rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  width: 80%;
+}
+
+.footer-two {
+  display: flex;
+  margin-bottom: 3rem;
+  margin-left: -1rem;
+}
+
+.footer-two img {
+  width: 6rem;
+  height: 7.5rem;
+}
+
+.footer-two-text {
+  margin-left: 2rem;
+}
+
+.footer-two-text h2 {
+  color: hsl(236, 13%, 42%);
+  opacity: 0.3;
+  font-size: 32px;
+}
+
+.footer-two-text h4 {
+  font-size: 18px;
+  color: hsl(240, 100%, 5%);
+  font-weight: bold;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.footer-two-text h4:hover {
+  color: hsl(5, 85%, 63%);
+}
+
+.footer-two-text p {
+  color: hsl(236, 13%, 42%);
+  font-size: 15px;
+  line-height: 1.6rem;
+  margin-top: 0.5rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.footer-tree {
+  display: flex;
+  margin-bottom: 3rem;
+  margin-left: 2.5rem;
+}
+
+.footer-tree img {
+  width: 6rem;
+  height: 7.5rem;
+}
+
+.footer-tree-text {
+  margin-left: 2rem;
+}
+
+.footer-tree-text h2 {
+  color: hsl(236, 13%, 42%);
+  opacity: 0.3;
+  font-size: 32px;
+}
+
+.footer-tree-text h4 {
+  font-size: 18px;
+  color: hsl(240, 100%, 5%);
+  font-weight: bold;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+.footer-tree-text h4:hover {
+  color: hsl(5, 85%, 63%);
+}
+
+.footer-tree-text p {
+  color: hsl(236, 13%, 42%);
+  font-size: 15px;
+  line-height: 1.6rem;
+  margin-top: 0.5rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.nav-button {
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  background-color: transparent;
+  display: none;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    max-width: 100%;
+    width: 370px;
+    height: auto;
+    z-index: 0;
+  }
+
+  .header ul li {
+    display: none;
+  }
+
+  .header img {
+    width: 2.5rem;
+    height: 2rem;
+    position: relative;
+    right: 8rem;
+  }
+
+  #menu {
+    display: block;
+    position: relative;
+    left: 8rem;
+  }
+
+  .menu-bar {
+    width: 60vw;
+    height: 150rem;
+    background: hsl(36, 100%, 99%);
+    display: none;
+    flex-direction: column;
+    z-index: 1;
+    position: absolute;
+    bottom: -100rem;
+    right: -1rem;
+  }
+  .menu-bar button {
+    position: absolute;
+    right: 10rem;
+    top: -100rem;
+    left: 10rem;
+    cursor: pointer;
+    transition: 5s all;
+  }
+
+  .menu-bar ul li {
+    display: flex;
+    flex-direction: column;
+    color: hsl(240, 100%, 5%);
+    position: relative;
+    font-size: 20px;
+    top: 30rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+
+  .menu-bar ul li:hover {
+    color: hsl(5, 85%, 63%);
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-left img {
+    width: 17rem;
+    height: 17rem;
+  }
+
+  .container-bottom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-bottom-left h1 {
+    font-size: 46px;
+    width: 42%;
+
+    line-height: 3rem;
+  }
+
+  .container-bottom-right p {
+    font-size: 13px;
+    width: 80%;
+    margin-top: 0.5rem;
+  }
+
+  .container-right {
+    max-width: 135%;
+    position: relative;
+    right: 2rem;
+  }
+
+  .container-right h3 {
+    font-size: 16px;
+    width: 150%;
+  }
+
+  .container-right p {
+    font-size: 12px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    position: absolute;
+    left: 5rem;
+    top: 105rem;
+  }
+
+  .footer img {
+    width: 5rem;
+    height: auto;
+  }
+
+  .footer-one-text {
+    position: relative;
+    right: 0.8rem;
+  }
+
+  .footer-one-text h2 {
+    font-size: 25px;
+  }
+
+  .footer-one-text h4 {
+    font-size: 16px;
+    width: 180%;
+  }
+
+  .footer-one-text p {
+    font-size: 12px;
+    width: 200%;
+  }
+
+  .footer-two {
+    margin-left: 0.1rem;
+  }
+
+  .footer-two-text {
+    position: relative;
+    right: 0.8rem;
+  }
+
+  .footer-two-text h2 {
+    font-size: 25px;
+  }
+
+  .footer-two-text h4 {
+    font-size: 16px;
+    width: 240%;
+  }
+
+  .footer-two-text p {
+    font-size: 12px;
+    width: 200%;
+  }
+
+  .footer-tree {
+    position: relative;
+    right: 2.3rem;
+  }
+
+  .footer-tree-text {
+    position: relative;
+    right: 0.8rem;
+  }
+
+  .footer-tree-text h2 {
+    font-size: 25px;
+  }
+
+  .footer-tree-text h4 {
+    font-size: 16px;
+    width: 250%;
+  }
+
+  .footer-tree-text p {
+    font-size: 12px;
+    width: 220%;
+  }
+
+  .nav-button {
+    font-size: 30px;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: transparent;
+    display: block;
+    position: relative;
+    left: 8rem;
+    bottom: 0.4rem;
+    cursor: pointer;
+  }
+}
